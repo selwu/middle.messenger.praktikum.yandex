@@ -1,9 +1,22 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+
+
+
 $green-1: #1c7944;
 $green-2: #239a55;
 $green-4: #18693b;
 $primary-30: #B8CCD9;
 $primary-50: #738C99;
-$primary-90: #2A414C;
+$primary-90: #2A414C;;
 $accent-10: #FAF6F2;
-$accent-20: #F2E9DF;
 $accent-60: #807366;
