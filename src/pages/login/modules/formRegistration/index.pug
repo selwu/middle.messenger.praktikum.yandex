@@ -1,0 +1,12 @@
+mixin form-registration()
+    .form-registration
+        h2.form-registration__title Регистрация
+        form.form-registration__content
+            +inputPimary()(placeholder="Почта").form-registration__input
+            +inputPimary()(placeholder="Логин").form-registration__input
+            +inputPimary()(placeholder="Имя").form-registration__input
+            +inputPimary()(placeholder="Фамилия").form-registration__input
+            +inputPimary()(placeholder="Телефон").form-registration__input
+            +inputPimary()(placeholder="Пароль").form-registration__input
+            +inputPimary()(placeholder="Пароль(ещё раз)").form-registration__input
+        +buttonPrimary('Зарегистрироваться').form-registration__button

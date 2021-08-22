@@ -1,6 +1,6 @@
 @import "../../../../global";
 
-.form-authorization {
+.form-registration {
   display: flex;
   flex-direction: column;
   max-width: 450px;
@@ -15,21 +15,10 @@
     font-size: 36px;
     line-height: 42px;
     color: $accent-10;
-    margin: 0 0 64px;
-
+    margin: 0 0 40px;
   }
   &__input {
-    margin-top: 32px;
-  }
-  &__text {
-    color: $green-2;
-    margin: 24px 0;
-    display: inline-block;
-    text-decoration: none;
-    transition: all .1s linear;
-    &:hover {
-      color: $green-1;
-    }
+    margin-top: 24px;
   }
   &__button {
     margin: 64px auto 0;
