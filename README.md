@@ -2,7 +2,9 @@
 
 https://www.figma.com/file/lTaiuGsPKtDgJ0X60udt0h
 
+### Netlify:
 
+https://condescending-jang-074ccf.netlify.app/
 
 
 ### Ветка, в которой делаете задания спринта, должна называться sprint_i, где i - номер спринта. Не переименовывайте её.
