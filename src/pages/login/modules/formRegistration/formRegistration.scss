@@ -1,0 +1,26 @@
+@import "../../../../global";
+
+.form-registration {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  min-height: 650px;
+  padding: 32px;
+  background-color: $primary-90;
+  &__title {
+    text-align: center;
+    font-family: Alegreya Sans SC, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: $accent-10;
+    margin: 0 0 40px;
+  }
+  &__input {
+    margin-top: 24px;
+  }
+  &__button {
+    margin: 64px auto 0;
+  }
+}

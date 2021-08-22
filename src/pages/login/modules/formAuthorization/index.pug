@@ -1,0 +1,8 @@
+mixin form-authorization()
+    .form-authorization
+        h2.form-authorization__title Авторизация
+        form.form-authorization__content
+            +inputPimary()(placeholder="Логин").form-authorization__input
+            +inputPimary()(placeholder="Пароль").form-authorization__input
+            a(href='#').form-authorization__text Регистрация
+        +buttonPrimary('Войти').form-authorization__button
