@@ -1,0 +1,24 @@
+.profile-edit
+    .profile-edit__icon-container
+        label(for="myIcon").profile-edit__icon-label
+        input(type="file" id="myIcon" name="avatar").profile-edit__icon-input
+    form.profile-edit__form
+        .profile-edit__input-container
+            +inputPimary()(name="email").profile-edit__input-content
+            .profile-edit__input-text Почта
+        .profile-edit__input-container
+            +inputPimary()(name="login").profile-edit__input-content
+            .profile-edit__input-text Логин
+        .profile-edit__input-container
+            +inputPimary()(name="first_name").profile-edit__input-content
+            .profile-edit__input-text Имя
+        .profile-edit__input-container
+            +inputPimary()(name="second_name").profile-edit__input-content
+            .profile-edit__input-text Фамилия
+        .profile-edit__input-container
+            +inputPimary()(name="phone").profile-edit__input-content
+            .profile-edit__input-text Телефон
+        .profile-edit__input-container
+            +inputPimary()(name="display_name").profile-edit__input-content
+            .profile-edit__input-text Имя в чате
+        +buttonPrimary("Сохранить").profile-edit__button-save

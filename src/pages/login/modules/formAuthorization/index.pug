@@ -4,5 +4,5 @@ mixin form-authorization()
         form.form-authorization__content
             +inputPimary()(placeholder="Логин" name="login").form-authorization__input
             +inputPimary()(placeholder="Пароль" name="password").form-authorization__input
-            a(href='#').form-authorization__text Регистрация
+            a(href='../registration/registration.pug').form-authorization__text Регистрация
         +buttonPrimary('Войти').form-authorization__button

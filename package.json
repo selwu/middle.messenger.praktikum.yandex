@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "parcel src/pages/index/index.pug ",
-    "build": "parcel build src/pages/index/index.pug src/pages/404/index.pug",
+    "build": "parcel build src/pages/index/index.pug",
     "start": "node server.js"
   },
   "repository": {
