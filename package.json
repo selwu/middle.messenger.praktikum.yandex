@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "parcel src/pages/home/home.pug",
-    "build": "parcel build src/pages/home/home.pug",
+    "dev": "parcel src/pages/index/index.pug ",
+    "build": "parcel build src/pages/index/index.pug src/pages/404/index.pug",
     "start": "node server.js"
   },
   "repository": {
