@@ -1,7 +1,12 @@
 @import "../../global";
 
 .home-page {
-  a {
-    margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  &__chat-users {
+    max-width: 375px;
+    width: 100%;
+    height: 100vh;
   }
 }

@@ -2,10 +2,12 @@ extends ../../layout/main
 
 
 block body
-    main
-        div Hello
-        a(href="../login/login.pug") go
-        a(href="../profileMain/profileMain.pug") go
-        a(href="../profilePassword/profilePassword.pug") go
-        a(href="../profileEdit/profileEdit.pug") go
-        a(href="../registration/registration.pug") go
+    main.home-page
+        section.home-page__chat-users
+            .home-page__users-header
+                a(href="../profileMain/profileMain.pug").home-page__link-profile
+                    .home-page__link-icon
+                input.home-page__search
+            ul.home-page__chat-list
+        section.home-page__chat
+            h3.home-page__chat-empty
