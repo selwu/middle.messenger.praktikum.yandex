@@ -1,1 +1,31 @@
-$green-1: #219653;
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+$green-1: #1c7944;
+$green-2: #239a55;
+$green-3: #70C000;
+$green-4: #18693b;
+$primary-30: #B8CCD9;
+$primary-50: #738C99;
+$primary-90: #2A414C;;
+$accent-10: #FAF6F2;
+$accent-60: #807366;
+$red: #EB5757;;

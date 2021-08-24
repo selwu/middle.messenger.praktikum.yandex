@@ -1,0 +1,32 @@
+extends ../../layout/main.pug
+
+
+block body
+    .profile-main
+        .profile-main__icon-container
+            label(for="myIcon").profile-main__icon-label
+            input(type="file" id="myIcon" name="avatar").profile-main__icon-input
+        .profile-main__item-container
+            .profile-main__item-name Почта
+            .profile-main__item-text text
+        .profile-main__item-container
+            .profile-main__item-name Логин
+            .profile-main__item-text text
+        .profile-main__item-container
+            .profile-main__item-name Имя
+            .profile-main__item-text text
+        .profile-main__item-container
+            .profile-main__item-name Фамилия
+            .profile-main__item-text text
+        .profile-main__item-container
+            .profile-main__item-name Телефон
+            .profile-main__item-text text
+        .profile-main__item-container
+            .profile-main__item-name Имя в чате
+            .profile-main__item-text text
+        .profile-main__item-container.profile-main__item-container_edit
+            a(href='../profileEdit/profileEdit.pug').profile-main__item-name.profile-main__item-name_link Изменить данные
+        .profile-main__item-container.profile-main__item-container_link
+            a(href='../profilePassword/profilePassword.pug').profile-main__item-name.profile-main__item-name_link Изменить пароль
+        .profile-main__item-container
+            a(href='#').profile-main__item-name.profile-main__item-name_logout Выйти

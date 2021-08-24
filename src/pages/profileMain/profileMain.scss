@@ -1,0 +1,66 @@
+@import "../../global";
+
+.profile-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 24px;
+  height: 100vh;
+  &__icon-container {
+    margin: 24px 0 40px;
+  }
+  &__icon-label {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: $primary-30;
+    display: block;
+    cursor: pointer;
+    object-fit: cover;
+  }
+  &__icon-input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  &__item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    height: 40px;
+    margin-top: 16px;
+    font-family: Alegreya Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    color: $accent-10;
+    border-bottom: 1px solid $primary-50;
+    padding: 0 8px;
+    &_edit {
+      margin-top: 64px;
+    }
+
+  }
+  &__item-name {
+    &_link {
+      color: $green-3;
+      text-decoration: none;
+    }
+    &_logout {
+      color: $red;
+      text-decoration: none;
+    }
+  }
+  &__item-text {
+    color: #fff;
+    font-weight: normal;
+  }
+}
