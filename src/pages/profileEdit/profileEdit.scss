@@ -1,12 +1,13 @@
-@import "../../../../global.scss";
+@import "../../global";
 
-.profile-password {
+.profile-edit {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 0 24px;
   height: 100vh;
+  padding: 0 24px;
+
   &__avatar {
     margin: 24px 0 40px;
     width: 150px;
